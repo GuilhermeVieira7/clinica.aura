@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Clínica de estética avançada premium em Parauapebas, PA. Tratamentos personalizados de rejuvenescimento facial, botox, bioestimuladores de colágeno e harmonização facial com naturalidade.">
+  <meta name="keywords" content="clínica de estética premium, botox, preenchimento, bioestimuladores, harmonização facial, rejuvenescimento, parauapebas pará, estética avançada">
+  <meta name="author" content="AURA Estética Avançada">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.auraclinica.com.br/">
+  <meta property="og:title" content="AURA | Clínica de Estética Avançada em Parauapebas - PA">
+  <meta property="og:description" content="Protocolos exclusivos de estética e cosmiatria de alta performance. Descubra sua beleza natural.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80&w=1200">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="AURA | Clínica de Estética Avançada">
+  <meta property="twitter:description" content="Estética avançada e rejuvenescimento sob medida em Parauapebas, PA.">
+
+  <title>AURA | Clínica de Estética Avançada e Rejuvenescimento</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?auto=format&fit=crop&q=80&w=32">
+
+  <!-- Stylesheet (Com cache buster para forçar recarregamento) -->
+  <link rel="stylesheet" href="style.css?v=2.2">
+</head>
+<body>
+
+  <!-- Custom Cursor Elements -->
+  <div class="custom-cursor" id="cursor-dot"></div>
+  <div class="custom-cursor-outline" id="cursor-outline"></div>
+
+  <!-- ==========================================
+       HEADER (NAVBAR)
+       ========================================== -->
+  <header class="header" id="main-header">
+    <div class="container">
+      <a href="#hero" class="logo" id="header-logo" aria-label="AURA Home">
+        AURA
+        <span>Estética Médica</span>
+      </a>
+      
+      <nav class="nav" id="navigation-menu" aria-label="Navegação principal">
+        <ul class="nav-menu" id="nav-list">
+          <li><a href="#sobre" class="nav-link">A Clínica</a></li>
+          <li><a href="#diferenciais" class="nav-link">Filosofia</a></li>
+          <li><a href="#procedimentos" class="nav-link">Procedimentos</a></li>
+          <li><a href="#antes-depois" class="nav-link">Antes & Depois</a></li>
+          <li><a href="#especialistas" class="nav-link">Especialistas</a></li>
+          <li><a href="#faq" class="nav-link">Dúvidas</a></li>
+        </ul>
+      </nav>
+      
+      <div class="header-actions">
+        <button class="btn btn-outline-gold header-btn quiz-trigger" id="nav-cta-btn">
+          Agendar Consulta
+        </button>
+      </div>
+
+      <button class="nav-toggle" id="mobile-menu-toggle" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="navigation-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       1. HERO SECTION (Layout Essency & Fazara)
+       ========================================== -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content reveal">
+          <div class="hero-tag">Exclusividade & Ciência em Parauapebas</div>
+          <h1 class="hero-title">
+            A primeira impressão que reconecta. <span>Sua pele merece o toque da excelência.</span>
+          </h1>
+          <p class="hero-desc">
+            Tratamentos estéticos de alta precisão e rejuvenescimento natural no Cidade Jardim, Parauapebas - PA. Onde a ciência de ponta encontra a arte da individualidade.
+          </p>
+          <div class="hero-actions">
+            <button class="btn btn-primary quiz-trigger" id="hero-primary-cta">
+              Agendar avaliação gratuita
+              <i data-lucide="arrow-right" class="btn-icon"></i>
+            </button>
+            <a href="#procedimentos" class="btn btn-secondary" id="hero-secondary-cta">
+              Ver Tratamentos
+            </a>
+          </div>
+
+          <!-- Social Proof Avatars (Essency Style) -->
+          <div class="hero-social-proof">
+            <div class="avatar-group">
+              <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=100&h=100" alt="Paciente" class="avatar-img">
+              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=100&h=100" alt="Paciente" class="avatar-img">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=100&h=100" alt="Paciente" class="avatar-img">
+              <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=100&h=100" alt="Paciente" class="avatar-img">
+            </div>
+            <span class="social-proof-text">+500 Clientes Satisfeitos em Parauapebas</span>
+          </div>
+        </div>
+        
+        <div class="hero-img-container reveal delay-2">
+          <!-- Gold Orbit Lines (Fazara Style) -->
+          <div class="hero-orbits">
+            <div class="orbit-line orbit-1"></div>
+            <div class="orbit-line orbit-2"></div>
+            <div class="orbit-line orbit-3"></div>
+          </div>
+          
+          <div class="hero-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800" alt="Retrato de médica esteticista premium, elegante e profissional" class="hero-img">
+          </div>
+
+          <!-- Rotating Circular Stamp (Fazara Inspiration) -->
+          <div class="rotating-badge-container">
+            <div class="rotating-badge">
+              <svg viewBox="0 0 100 100" width="100" height="100">
+                <path id="circlePath" d="M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0" fill="transparent" />
+                <text font-size="7.5" font-family="Plus Jakarta Sans" letter-spacing="2.5" fill="#A67C5D">
+                  <textPath href="#circlePath">
+                    AURA ESTÉTICA AVANÇADA • EXCLUSIVIDADE •
+                  </textPath>
+                </text>
+              </svg>
+              <div class="badge-icon">
+                <i data-lucide="sparkle" style="width: 20px; height: 20px; color: var(--color-gold);"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sliding Marquee Tape (Essency Style) -->
+    <div class="marquee-container">
+      <div class="marquee-content">
+        <div class="marquee-item">AURA ESTÉTICA AVANÇADA</div>
+        <div class="marquee-item">EXCLUSIVIDADE & NATURALIDADE</div>
+        <div class="marquee-item">TECNOLOGIA MÉDICA DE PONTA</div>
+        <div class="marquee-item">REJUVENESCIMENTO SUTIL</div>
+        <div class="marquee-item">AURA ESTÉTICA AVANÇADA</div>
+        <div class="marquee-item">EXCLUSIVIDADE & NATURALIDADE</div>
+        <div class="marquee-item">TECNOLOGIA MÉDICA DE PONTA</div>
+        <div class="marquee-item">REJUVENESCIMENTO SUTIL</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       2. SOBRE A CLÍNICA
+       ========================================== -->
+  <section class="sobre section-padding" id="sobre">
+    <div class="container">
+      <div class="sobre-grid">
+        <div class="sobre-img-container reveal">
+          <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80&w=800" alt="Recepção sofisticada da clínica AURA em Parauapebas" class="sobre-img-1">
+          <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=800" alt="Equipamentos tecnológicos modernos na clínica AURA" class="sobre-img-2">
+        </div>
+        
+        <div class="sobre-content reveal delay-2">
+          <div class="section-header">
+            <span class="section-subtitle">A Clínica</span>
+            <h2 class="section-title">A arte e a precisão do <span>rejuvenescimento</span></h2>
+          </div>
+          <p class="sobre-highlight">
+            Acreditamos que a beleza não é uma fórmula matemática a ser replicada, mas uma expressão individual de harmonia e bem-estar.
+          </p>
+          <p class="sobre-text">
+            Fundada sob os pilares da rigorosa qualificação médica e da sensibilidade artística, a Clínica AURA oferece um ambiente de acolhimento e privacidade no bairro Cidade Jardim. Nossos tratamentos são inteiramente desenhados de forma personalizada, combinando tecnologia médica de ponta e técnicas avançadas para realçar seus traços com total segurança e naturalidade.
+          </p>
+          <button class="btn btn-secondary quiz-trigger" id="sobre-cta">
+            Conhecer a Experiência
+            <i data-lucide="chevron-right" class="btn-icon"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       3. DIFERENCIAIS
+       ========================================== -->
+  <section class="diferenciais section-padding" id="diferenciais">
+    <div class="container">
+      <div class="section-header reveal" style="max-width: 600px; margin: 0 auto 8rem auto; text-align: center;">
+        <span class="section-subtitle" style="text-align: center; display: block;">Nossa Filosofia</span>
+        <h2 class="section-title" style="text-align: center;">Por que escolher a <span>AURA</span>?</h2>
+      </div>
+      
+      <div class="diferenciais-grid">
+        <div class="diferencial-card reveal">
+          <div class="diferencial-num">01</div>
+          <h3 class="diferencial-title">Naturalidade Absoluta</h3>
+          <p class="diferencial-desc">
+            Nossa prioridade máxima é a preservação de suas expressões. Criamos resultados elegantes e sutis, evitando o aspect artificial ou exagerado.
+          </p>
+        </div>
+        
+        <div class="diferencial-card reveal delay-1">
+          <div class="diferencial-num">02</div>
+          <h3 class="diferencial-title">Rigor Científico</h3>
+          <p class="diferencial-desc">
+            Todos os nossos tratamentos baseiam-se em evidências científicas sólidas, utilizando exclusivamente produtos premium e tecnologias aprovadas pela ANVISA e FDA.
+          </p>
+        </div>
+        
+        <div class="diferencial-card reveal delay-2">
+          <div class="diferencial-num">03</div>
+          <h3 class="diferencial-title">Privacidade Concierge</h3>
+          <p class="diferencial-desc">
+            Desfrute de um atendimento exclusivo e personalizado. Agendas espaçadas para garantir total discrição, atenção integral e zero filas.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       4. PROCEDIMENTOS
+       ========================================== -->
+  <section class="procedimentos section-padding" id="procedimentos">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Procedimentos</span>
+        <h2 class="section-title">Nossas especialidades <span>estéticas</span></h2>
+        <p class="section-desc">Protocolos dermatológicos de alta tecnologia e procedimentos faciais e corporais sob medida.</p>
+      </div>
+      
+      <div class="procedimentos-nav reveal">
+        <button class="procedimento-tab active" data-category="todos" id="tab-todos">Tudo</button>
+        <button class="procedimento-tab" data-category="facial" id="tab-facial">Facial</button>
+        <button class="procedimento-tab" data-category="corporal" id="tab-corporal">Corporal</button>
+        <button class="procedimento-tab" data-category="especiais" id="tab-especiais">Avançado & Bem-Estar</button>
+      </div>
+      
+      <div class="procedimentos-grid">
+        <!-- Card 1 -->
+        <div class="procedimento-card reveal" data-category="facial">
+          <div class="procedimento-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&q=80&w=800" alt="Aplicação técnica e delicada de toxina botulínica" class="procedimento-img">
+          </div>
+          <div class="procedimento-content">
+            <span class="procedimento-tag">Facial</span>
+            <h3 class="procedimento-card-title">Toxina Botulínica</h3>
+            <p class="procedimento-card-desc">
+              Prevenção e suavização de linhas de expressão com aplicação precisa para resultados naturais e descansados.
+            </p>
+            <button class="procedimento-link quiz-trigger" style="background:none; border:none; cursor:pointer;">
+              Saber Mais
+              <i data-lucide="chevron-right" class="procedimento-link-icon"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="procedimento-card reveal" data-category="facial">
+          <div class="procedimento-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&q=80&w=800" alt="Preenchimento estético facial avançado" class="procedimento-img">
+          </div>
+          <div class="procedimento-content">
+            <span class="procedimento-tag">Facial</span>
+            <h3 class="procedimento-card-title">Preenchimento</h3>
+            <p class="procedimento-card-desc">
+              Restauração de volumes perdidos e harmonização de contornos com o uso de ácido hialurônico de alta pureza.
+            </p>
+            <button class="procedimento-link quiz-trigger" style="background:none; border:none; cursor:pointer;">
+              Saber Mais
+              <i data-lucide="chevron-right" class="procedimento-link-icon"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="procedimento-card reveal" data-category="facial">
+          <div class="procedimento-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&q=80&w=800" alt="Tratamento com bioestimuladores de colágeno" class="procedimento-img">
+          </div>
+          <div class="procedimento-content">
+            <span class="procedimento-tag">Facial</span>
+            <h3 class="procedimento-card-title">Bioestimuladores</h3>
+            <p class="procedimento-card-desc">
+              Estímulo profundo da produção de colágeno natural do organismo para recuperar a firmeza e a densidade da pele.
+            </p>
+            <button class="procedimento-link quiz-trigger" style="background:none; border:none; cursor:pointer;">
+              Saber Mais
+              <i data-lucide="chevron-right" class="procedimento-link-icon"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="procedimento-card reveal" data-category="corporal">
+          <div class="procedimento-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&q=80&w=800" alt="Procedimento de massagem e contorno corporal estético" class="procedimento-img">
+          </div>
+          <div class="procedimento-content">
+            <span class="procedimento-tag">Corporal</span>
+            <h3 class="procedimento-card-title">Contorno Corporal</h3>
+            <p class="procedimento-card-desc">
+              Associação de tecnologias não-invasivas de ponta para tratamento de flacidez, celulite e gordura localizada.
+            </p>
+            <button class="procedimento-link quiz-trigger" style="background:none; border:none; cursor:pointer;">
+              Saber Mais
+              <i data-lucide="chevron-right" class="procedimento-link-icon"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="procedimento-card reveal" data-category="especiais">
+          <div class="procedimento-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&q=80&w=800" alt="Aplicação de laser na pele do rosto" class="procedimento-img">
+          </div>
+          <div class="procedimento-content">
+            <span class="procedimento-tag">Avançado & Bem-Estar</span>
+            <h3 class="procedimento-card-title">Laser Regenerativo</h3>
+            <p class="procedimento-card-desc">
+              Tratamento fracionado a laser para rejuvenescimento global, redução de manchas e renovação celular profunda.
+            </p>
+            <button class="procedimento-link quiz-trigger" style="background:none; border:none; cursor:pointer;">
+              Saber Mais
+              <i data-lucide="chevron-right" class="procedimento-link-icon"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="procedimento-card reveal" data-category="especiais">
+          <div class="procedimento-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=800" alt="Protocolo de limpeza profunda de pele AURA" class="procedimento-img">
+          </div>
+          <div class="procedimento-content">
+            <span class="procedimento-tag">Avançado & Bem-Estar</span>
+            <h3 class="procedimento-card-title">Limpeza SkinDetox</h3>
+            <p class="procedimento-card-desc">
+              Protocolo exclusivo de purificação profunda da pele aliado à infusão de vitaminas e hidratação molecular.
+            </p>
+            <button class="procedimento-link quiz-trigger" style="background:none; border:none; cursor:pointer;">
+              Saber Mais
+              <i data-lucide="chevron-right" class="procedimento-link-icon"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       5. ANTES E DEPOIS (SLIDER INTERATIVO)
+       ========================================== -->
+  <section class="antes-depois section-padding" id="antes-depois">
+    <div class="container">
+      <div class="antes-depois-grid">
+        <div class="antes-depois-content reveal">
+          <div class="section-header">
+            <span class="section-subtitle">Ciência e Resultados</span>
+            <h2 class="section-title">A sutileza dos <span>resultados</span> reais</h2>
+            <p class="section-desc">
+              Deslize o marcador para visualizar a reestruturação da barreira cutânea e o viço natural proporcionados por nossos tratamentos de renovação e hidratação molecular profunda.
+            </p>
+          </div>
+          <p style="margin-bottom: 4rem; color: var(--color-text-secondary); font-weight: 300;">
+            Buscamos resgatar a jovialidade celular, promovendo uma pele visivelmente mais firme, uniforme e com textura refinada. Cada paciente passa por uma jornada exclusiva e detalhada de acompanhamento clínico.
+          </p>
+          <button class="btn btn-outline-gold quiz-trigger" id="antes-depois-cta">
+            Agendar Consulta
+          </button>
+        </div>
+        
+        <div class="reveal delay-2">
+          <!-- Slider Interativo -->
+          <div class="slider-container" id="before-after-slider">
+            <!-- Imagem Original (Before) -->
+            <img src="https://images.unsplash.com/photo-1608248597481-496100c8c836?auto=format&fit=crop&q=80&w=1000" alt="Antes: Textura de pele antes do tratamento" class="slider-img img-before">
+            
+            <!-- Imagem Tratada (After) -->
+            <div class="slider-img img-after" id="after-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=1000" alt="Depois: Pele regenerada e radiante pós-procedimento" class="slider-img" style="width: 100vw; max-width: 800px;">
+            </div>
+            
+            <!-- Linha e botão de controle deslizante -->
+            <div class="slider-handle" id="slider-drag-handle">
+              <div class="slider-handle-btn">
+                <i data-lucide="chevrons-left-right" style="width: 18px; height: 18px;"></i>
+              </div>
+            </div>
+            
+            <!-- Etiquetas -->
+            <span class="slider-label label-before">Pele Natural</span>
+            <span class="slider-label label-after">Pós-Tratamento AURA</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       6. ESPECIALISTAS
+       ========================================== -->
+  <section class="especialistas section-padding" id="especialistas">
+    <div class="container">
+      <div class="section-header reveal" style="max-width: 700px;">
+        <span class="section-subtitle">Corpo Clínico</span>
+        <h2 class="section-title">Autoridades em <span>cosmiatria</span> e rejuvenescimento</h2>
+        <p class="section-desc">Profissionais altamente renomados, com formação de excelência e dedicação absoluta à integridade do paciente.</p>
+      </div>
+      
+      <div class="especialistas-grid">
+        <!-- Especialista 1 -->
+        <div class="especialista-card reveal">
+          <div class="especialista-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1594824813573-246434de83fb?auto=format&fit=crop&q=80&w=800" alt="Dra. Helena Vasconcellos - Dermatologista e Co-fundadora AURA" class="especialista-img">
+          </div>
+          <div class="especialista-content">
+            <span class="especialista-crm">CRM-PA 12.345 / RQE 7.890</span>
+            <h3 class="especialista-name">Dra. Helena Vasconcellos</h3>
+            <span class="especialista-role">Dermatologia Avançada & Estética</span>
+            <p class="especialista-bio">
+              Graduada e pós-graduada em Dermatologia pela USP. Especialista em técnicas avançadas de MD Codes e preenchimentos faciais de alta precisão.
+            </p>
+            <ul class="especialista-skills">
+              <li>Membro Titular da Sociedade Brasileira de Dermatologia (SBD)</li>
+              <li>Fellow em Laser e Tecnologia Estética (Harvard Medical School)</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Especialista 2 -->
+        <div class="especialista-card reveal delay-1">
+          <div class="especialista-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&q=80&w=800" alt="Dr. Arthur Mendes - Cirurgião Plástico e Co-fundador AURA" class="especialista-img">
+          </div>
+          <div class="especialista-content">
+            <span class="especialista-crm">CRM-PA 14.567 / RQE 9.123</span>
+            <h3 class="especialista-name">Dr. Arthur Mendes</h3>
+            <span class="especialista-role">Cosmiatria & Cirurgia Estética</span>
+            <p class="especialista-bio">
+              Cirurgião Plástico formado pela UNIFESP com especialização em cosmiatria avançada, especializado em harmonização e cirurgias faciais minimamente invasivas.
+            </p>
+            <ul class="especialista-skills">
+              <li>Membro Titular da Sociedade Brasileira de Cirurgia Plástica (SBCP)</li>
+              <li>Especialista em contorno facial por tecnologias robóticas</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       7. ESTATÍSTICAS
+       ========================================== -->
+  <section class="stats section-padding" id="estatisticas">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item reveal">
+          <div class="stat-number" data-target="98">0<span>%</span></div>
+          <div class="stat-label">Satisfação Clínica Absoluta</div>
+        </div>
+        
+        <div class="stat-item reveal delay-1">
+          <div class="stat-number" data-target="15">0<span>k+</span></div>
+          <div class="stat-label">Procedimentos Realizados</div>
+        </div>
+        
+        <div class="stat-item reveal delay-2">
+          <div class="stat-number" data-target="12">0<span>+</span></div>
+          <div class="stat-label">Anos de Liderança em Estética</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       8. PROCESSO DE ATENDIMENTO
+       ========================================== -->
+  <section class="processo section-padding" id="processo">
+    <div class="container">
+      <div class="section-header reveal" style="max-width: 600px; margin: 0 auto 8rem auto; text-align: center;">
+        <span class="section-subtitle" style="text-align: center; display: block;">A Experiência AURA</span>
+        <h2 class="section-title" style="text-align: center;">Sua jornada para o <span>autocuidado</span></h2>
+      </div>
+      
+      <div class="processo-grid">
+        <!-- Passo 1 -->
+        <div class="processo-card reveal">
+          <span class="processo-step">I</span>
+          <h3 class="processo-title">Consulta Concierge</h3>
+          <p class="processo-desc">
+            Uma avaliação detalhada com mapeamento facial 3D, onde suas metas, queixas e anatomia são profundamente analisados por especialistas.
+          </p>
+        </div>
+
+        <!-- Passo 2 -->
+        <div class="processo-card reveal delay-1">
+          <span class="processo-step">II</span>
+          <h3 class="processo-title">Protocolo Sob Medida</h3>
+          <p class="processo-desc">
+            Desenvolvimento de um cronograma personalizado de tratamentos focados em rejuvenescimento estruturado e preservação natural.
+          </p>
+        </div>
+
+        <!-- Passo 3 -->
+        <div class="processo-card reveal delay-2">
+          <span class="processo-step">III</span>
+          <h3 class="processo-title">Procedimento Preciso</h3>
+          <p class="processo-desc">
+            Aplicação em sala equipada de alta tecnologia, utilizando técnicas e anestésicos exclusivos para o seu absoluto conforto.
+          </p>
+        </div>
+
+        <!-- Passo 4 -->
+        <div class="processo-card reveal delay-3">
+          <span class="processo-step">IV</span>
+          <h3 class="processo-title">Acompanhamento Ativo</h3>
+          <p class="processo-desc">
+            Consultas periódicas de retorno e acompanhamento fotográfico profissional para otimizar e prolongar a durabilidade dos seus resultados.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       9. DEPOIMENTOS (TESTIMONIALS)
+       ========================================== -->
+  <section class="depoimentos section-padding" id="depoimentos">
+    <div class="container">
+      <div class="depoimentos-slider reveal">
+        <!-- Slide 1 -->
+        <div class="depoimento-slide active">
+          <div class="depoimento-icon">“</div>
+          <blockquote class="depoimento-text">
+            O atendimento da Clínica AURA é incomparável. A Dra. Helena tem uma sensibilidade cirúrgica para preenchimentos: o resultado ficou tão elegante e sutil que todos elogiam minha pele sem perceber que realizei procedimentos.
+          </blockquote>
+          <span class="depoimento-author">Mariana S. <span>• Advogada, Cidade Jardim</span></span>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="depoimento-slide">
+          <div class="depoimento-icon">“</div>
+          <blockquote class="depoimento-text">
+            Sempre tive receio de que a harmonização ficasse exagerada. No entanto, no primeiro momento da consulta na AURA, percebi o respeito absoluto à minha anatomia natural. O protocolo de bioestimuladores mudou minha autoestima.
+          </blockquote>
+          <span class="depoimento-author">Beatriz G. <span>• Empresária, Cidade Nova</span></span>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="depoimento-slide">
+          <div class="depoimento-icon">“</div>
+          <blockquote class="depoimento-text">
+            A infraestrutura é maravilhosa e o concierge da clínica cuida de tudo com enorme discrição. É o meu refúgio semanal de autocuidado. O laser regenerativo e o detox de pele são impecáveis.
+          </blockquote>
+          <span class="depoimento-author">Clara M. <span>• Artista Visual, Beira Rio</span></span>
+        </div>
+
+        <!-- Controles do Slider -->
+        <div class="slider-nav">
+          <button class="slider-nav-btn" id="slider-prev-btn" aria-label="Depoimento anterior">
+            <i data-lucide="arrow-left" style="width: 16px; height: 16px;"></i>
+          </button>
+          <button class="slider-nav-btn" id="slider-next-btn" aria-label="Próximo depoimento">
+            <i data-lucide="arrow-right" style="width: 16px; height: 16px;"></i>
+          </button>
+        </div>
+
+        <!-- Indicadores (Dots) -->
+        <div class="slider-dots" id="slider-dots-container">
+          <span class="slider-dot active" data-index="0"></span>
+          <span class="slider-dot" data-index="1"></span>
+          <span class="slider-dot" data-index="2"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       10. PERGUNTAS FREQUENTES (FAQ)
+       ========================================== -->
+  <section class="faq section-padding" id="faq">
+    <div class="container">
+      <div class="section-header reveal" style="max-width: 600px; margin: 0 auto 8rem auto; text-align: center;">
+        <span class="section-subtitle" style="text-align: center; display: block;">Perguntas Frequentes</span>
+        <h2 class="section-title" style="text-align: center;">Esclarecimentos <span>exclusivos</span></h2>
+      </div>
+      
+      <div class="faq-container">
+        <!-- Item 1 -->
+        <div class="faq-item reveal">
+          <button class="faq-header" aria-expanded="false">
+            <span class="faq-question">Os procedimentos estéticos da AURA alteram a minha fisionomia natural?</span>
+            <i data-lucide="plus" class="faq-icon"></i>
+          </button>
+          <div class="faq-body">
+            <div class="faq-content">
+              Absolutamente não. Nossa filosofia de trabalho é focada na naturalidade e no refinamento sutil. Realizamos aplicações precisas e planejadas com mapeamento facial 3D para valorizar sua estrutura nativa e suavizar marcas do tempo sem causar distorções.
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="faq-item reveal">
+          <button class="faq-header" aria-expanded="false">
+            <span class="faq-question">Há necessidade de repouso absoluto após aplicação de Botox ou preenchedores?</span>
+            <i data-lucide="plus" class="faq-icon"></i>
+          </button>
+          <div class="faq-body">
+            <div class="faq-content">
+              Na grande maioria dos casos, não. Os procedimentos injetáveis são minimamente invasivos. Recomendamos apenas evitar atividades físicas intensas nas primeiras 4 a 24 horas seguintes e a exposição solar direta. Você poderá retornar à sua rotina social e profissional imediatamente.
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="faq-item reveal">
+          <button class="faq-header" aria-expanded="false">
+            <span class="faq-question">Como funciona a primeira avaliação computadorizada e a consulta inicial?</span>
+            <i data-lucide="plus" class="faq-icon"></i>
+          </button>
+          <div class="faq-body">
+            <div class="faq-content">
+              Na consulta de avaliação Concierge, realizamos uma análise digital computadorizada e fotográfica de alta definição da estrutura cutânea e volumetria facial. Juntos com nossos especialistas médicos, traçamos seus objetivos de curto, médio e longo prazo, estabelecendo um plano de gerenciamento do envelhecimento personalizado.
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="faq-item reveal">
+          <button class="faq-header" aria-expanded="false">
+            <span class="faq-question">Com qual frequência devo realizar a aplicação de bioestimuladores de colágeno?</span>
+            <i data-lucide="plus" class="faq-icon"></i>
+          </button>
+          <div class="faq-body">
+            <div class="faq-content">
+              Para melhores resultados, costumamos prescrever um protocolo de ataque inicial com 2 a 3 sessões espalhadas mensalmente. Após esse ciclo inicial, uma única sessão de manutenção anual é suficiente para manter a produção de colágeno sempre estimulada e a pele firme.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       11. CTA FINAL
+       ========================================== -->
+  <section class="cta-final" id="cta">
+    <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=1600" alt="Fundo de spa de luxo" class="cta-final-bg">
+    <div class="container">
+      <div class="cta-final-content reveal">
+        <span class="cta-final-subtitle">O Início de sua Transformação</span>
+        <h2 class="cta-final-title">Vivencie a experiência da beleza <span>refinada</span></h2>
+        <p class="cta-final-desc">
+          Agende sua consulta exclusiva em nosso concierge especializado. Desfrute de um plano médico focado na sua melhor versão física e celular.
+        </p>
+        <button class="btn btn-primary quiz-trigger" id="final-cta-btn">
+          Falar com o Concierge
+          <i data-lucide="message-circle" class="btn-icon"></i>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       12. RODAPÉ PREMIUM (FOOTER)
+       ========================================== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-logo-area">
+          <div class="logo">
+            AURA
+            <span>Estética Médica</span>
+          </div>
+          <p>
+            Redefinindo a longevidade, o rejuvenescimento e o autocuidado estético com precisão científica e discrição de luxo em Parauapebas.
+          </p>
+          <div class="footer-socials">
+            <a href="https://instagram.com" class="footer-social-btn" aria-label="AURA Instagram" target="_blank" rel="noopener">
+              <i data-lucide="instagram" class="footer-social-icon"></i>
+            </a>
+            <a href="https://linkedin.com" class="footer-social-btn" aria-label="AURA LinkedIn" target="_blank" rel="noopener">
+              <i data-lucide="linkedin" class="footer-social-icon"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div>
+          <h4 class="footer-title">Navegação</h4>
+          <ul class="footer-links">
+            <li><a href="#sobre" class="footer-link">A Clínica</a></li>
+            <li><a href="#diferenciais" class="footer-link">Filosofia</a></li>
+            <li><a href="#procedimentos" class="footer-link">Procedimentos</a></li>
+            <li><a href="#antes-depois" class="footer-link">Antes & Depois</a></li>
+            <li><a href="#especialistas" class="footer-link">Especialistas</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Contato Exclusivo</h4>
+          <div class="footer-contact-info">
+            <div class="footer-contact-item">
+              <i data-lucide="map-pin" class="footer-contact-icon"></i>
+              <span>Av. Ipê, 340 - Unique Office<br>Cidade Jardim, Parauapebas - PA</span>
+            </div>
+            <div class="footer-contact-item">
+              <i data-lucide="phone" class="footer-contact-icon"></i>
+              <span>(94) 99876-5432</span>
+            </div>
+            <div class="footer-contact-item">
+              <i data-lucide="mail" class="footer-contact-icon"></i>
+              <span>concierge@auraclinica.com.br</span>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Atendimento</h4>
+          <p style="color: var(--color-text-light-secondary); font-weight: 300;">
+            Segunda a Sexta<br>09:00 às 20:00
+          </p>
+          <p style="color: var(--color-text-light-secondary); font-weight: 300; margin-top: 1.5rem;">
+            Sábados (Exclusivo)<br>09:00 às 13:00
+          </p>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026 AURA Estética Médica Ltda. Todos os direitos reservados.</p>
+        <div class="footer-legal-links">
+          <a href="#" class="footer-legal-link">Termos de Uso</a>
+          <a href="#" class="footer-legal-link">Políticas de Privacidade</a>
+        </div>
+      </div>
+
+      <div class="footer-technical">
+        <span>Clínica AURA - Direção Técnica: Dra. Helena Vasconcellos CRM-PA 12.345 RQE 7.890. As informações contidas neste website têm caráter meramente informativo e não substituem consulta médica presencial.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Luxury Concierge Whatsapp Button -->
+  <button class="whatsapp-concierge quiz-trigger" id="floating-whatsapp-btn" aria-label="Abrir diagnóstico personalizado">
+    <i data-lucide="message-square" class="whatsapp-icon"></i>
+    <span>Falar com Concierge</span>
+  </button>
+
+  <!-- ==========================================
+       MODAL QUIZ DIAGNÓSTICO DE LUXO
+       ========================================== -->
+  <div class="quiz-modal" id="quiz-modal-container">
+    <div class="quiz-content-wrapper">
+      <button class="quiz-close-btn" id="close-quiz-btn" aria-label="Fechar Diagnóstico">
+        <i data-lucide="x" style="width: 20px; height: 20px;"></i>
+      </button>
+      
+      <div class="quiz-progress">
+        <div class="quiz-progress-bar">
+          <div class="quiz-progress-fill" id="quiz-progress-indicator"></div>
+        </div>
+        <span class="quiz-step-indicator" id="quiz-step-text">Passo 1 de 3</span>
+      </div>
+      
+      <!-- Passo 1 -->
+      <div class="quiz-step active" data-step="1">
+        <h3 class="quiz-title">Qual área do seu corpo ou rosto mais necessita de atenção no momento?</h3>
+        <div class="quiz-options">
+          <button class="quiz-option" data-value="Rugas e marcas de expressão">Rugas e marcas de expressão (Olhos, Testa, Glabela)</button>
+          <button class="quiz-option" data-value="Flacidez e contorno facial">Flacidez facial e perda de contorno (Mandíbula, Maçãs)</button>
+          <button class="quiz-option" data-value="Manchas e textura cutânea">Textura da pele, manchas ou melasma</button>
+          <button class="quiz-option" data-value="Gordura localizada e flacidez corporal">Flacidez e contorno corporal (Gordura localizada)</button>
+        </div>
+      </div>
+      
+      <!-- Passo 2 -->
+      <div class="quiz-step" data-step="2">
+        <h3 class="quiz-title">Qual o seu objetivo estético primordial de tratamento?</h3>
+        <div class="quiz-options">
+          <button class="quiz-option" data-value="Rejuvenescimento preventivo e natural">Rejuvenescimento sutil e preventivo</button>
+          <button class="quiz-option" data-value="Definição de contornos e volume facial">Recuperar volumes perdidos e definição facial</button>
+          <button class="quiz-option" data-value="Recuperar luminosidade e textura da pele">Melhorar a qualidade global, viço e brilho da pele</button>
+          <button class="quiz-option" data-value="Redução de medidas e firmeza da pele corporal">Redução de medidas e ganho de firmeza corporal</button>
+        </div>
+      </div>
+      
+      <!-- Passo 3 -->
+      <div class="quiz-step" data-step="3">
+        <h3 class="quiz-title">Insira seus dados para que nosso concierge elabore seu protocolo</h3>
+        <form class="quiz-form" id="quiz-lead-form" onsubmit="return false;">
+          <div class="quiz-form-group">
+            <label for="quiz-name">Nome Completo</label>
+            <input type="text" id="quiz-name" class="quiz-input" placeholder="Ex: Helena Vasconcellos" required>
+          </div>
+          <div class="quiz-form-group">
+            <label for="quiz-email">E-mail</label>
+            <input type="email" id="quiz-email" class="quiz-input" placeholder="Ex: helena@email.com" required>
+          </div>
+          <div class="quiz-form-group">
+            <label for="quiz-whatsapp">WhatsApp</label>
+            <input type="tel" id="quiz-whatsapp" class="quiz-input" placeholder="Ex: (94) 99123-4567" required>
+          </div>
+        </form>
+      </div>
+      
+      <div class="quiz-nav-btns">
+        <button class="quiz-btn-prev" id="quiz-prev-btn">Voltar</button>
+        <button class="quiz-btn-submit" id="quiz-next-submit-btn">Avançar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Lenis Smooth Scroll CDN -->
+  <script src="https://unpkg.com/@studio-freight/lenis@1.0.34/dist/lenis.min.js"></script>
+  
+  <!-- Interactive JavaScript logic (Com cache buster para forçar recarregamento) -->
+  <script src="script.js?v=2.2"></script>
+</body>
+</html>
