@@ -1613,11 +1613,11 @@ body.cursor-hover .custom-cursor-outline {
   transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.faq-item.active .faq-icon {
+.faq-item.faq-open .faq-icon {
   transform: rotate(45deg);
 }
 
-.faq-item.active .faq-question {
+.faq-item.faq-open .faq-question {
   color: var(--color-gold);
 }
 

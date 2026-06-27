@@ -340,22 +340,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (header && body) {
       header.addEventListener('click', () => {
-        const isActive = item.classList.contains('active');
+        const isOpen = item.classList.contains('faq-open');
 
         faqItems.forEach(otherItem => {
           if (otherItem !== item) {
-            otherItem.classList.remove('active');
+            otherItem.classList.remove('faq-open');
             otherItem.querySelector('.faq-body').style.maxHeight = null;
             otherItem.querySelector('.faq-header').setAttribute('aria-expanded', 'false');
           }
         });
 
-        if (isActive) {
-          item.classList.remove('active');
+        if (isOpen) {
+          item.classList.remove('faq-open');
           body.style.maxHeight = null;
           header.setAttribute('aria-expanded', 'false');
         } else {
-          item.classList.add('active');
+          item.classList.add('faq-open');
           body.style.maxHeight = body.scrollHeight + 'px';
           header.setAttribute('aria-expanded', 'true');
         }
